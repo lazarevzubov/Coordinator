@@ -8,9 +8,8 @@
 /**
  Manages the retain-release cycle of a coordinator.
 
- Coordinators typically create other, child, coordinators. Dependency manager can be injected into a parent coordinator
- to store links to that child coordinators. That will help to controll the lifecycle of coordinator objects,
- that is they won't be released prematurely.
+ Coordinators typically create other, child, coordinators. Dependency manager can be injected into a parent coordinator to store links to that child coordinators.
+ That will help to controll the lifecycle of coordinator objects, that is they won't be released prematurely.
  */
 public protocol CoordinatorDependencyManager {
 
