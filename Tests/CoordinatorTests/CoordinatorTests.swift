@@ -1,15 +1,24 @@
+//
+//  CoordinatorDependencyManager.swift
+//  Coordinator
+//
+//  Created by Nikita Lazarev-Zubov on 19.4.2020.
+//
+
+// TODO: Tests
+
+@testable
+import Coordinator
 import XCTest
-@testable import Coordinator
 
 final class CoordinatorTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(Coordinator().text, "Hello, World!")
-    }
 
-    static var allTests = [
-        ("testExample", testExample),
-    ]
+    // MARK: - Properties
+
+    static private(set) var allTests = [("testExample", testExample)]
+
+    // MARK: - Methods
+
+    func testExample() { }
+
 }
